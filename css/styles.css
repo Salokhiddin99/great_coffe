@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('../fonts/Fraunces-Bold.woff2') format('woff2'),
+        url('../fonts/Fraunces-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'Fraunces', 'Barlow', 'Arial', sant-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header qismi */
+.header {
+    margin: 40px 0;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 236px;
+    height: 26px;
+}
+.navbar {
+    font-family: 'Barlow-Regular';
+}
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    color: #fff;
+    margin-right: 32px;
+    font-size: 12px;
+}
+.nav_a {
+    color: #83888F;
+    text-decoration: none;
+}
+/* header qismi */
+
+/* asosiy qism */
+/* section */
+.section {
+    background-image: url('../img/Bitmap.png');
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_div {
+    width: 490px;
+    height: 360px;
+    margin-right: 550px;
+}
+.section_h1 {
+    font-size: 72px;
+    font-family: 'Fraunces';
+    color: #fff;
+    margin-bottom: 20px;
+}
+.section_p {
+    color:  #83888F;
+    font-size: 16px;
+    font-family: 'Barlow';
+    margin-bottom: 40px;
+}
+.div_a {
+    width: 220px;
+    height: 60px;
+    background-color:  #66D2CF;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* section */
+/* main */
+
+.background {
+    width: 1111px;
+    height: 200px;
+    background-image: url('../img/Group13.png');
+    margin-top: 180px;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -80px;
+}
+.card {
+    width: 255px;
+    height: 393px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.card_img {
+    width: 255px;
+    height: 193px;
+    margin-bottom: 70px;
+}
+.card_h3 {
+    color: #333D4B;
+    font-size: 24px;
+    font-family: 'Fraunces';
+    margin-bottom: 24px;
+}
+.card_p {
+    color: #333D4B;
+    font-size: 16px;
+    font-family: 'Barlow';
+    
+}
